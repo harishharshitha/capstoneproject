@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-03-03T09:19:54 IST" name="Default suite" finished-at="2022-03-03T09:20:45 IST" duration-ms="51194">
+    <groups>
+    </groups>
+    <test started-at="2022-03-03T09:19:54 IST" name="Default test" finished-at="2022-03-03T09:20:45 IST" duration-ms="51194">
+      <class name="users.TC_001">
+        <test-method is-config="true" signature="openTheBrowser(java.lang.String)[pri:0, instance:users.TC_001@74455848]" started-at="2022-03-03T09:19:54 IST" name="openTheBrowser" finished-at="2022-03-03T09:19:58 IST" duration-ms="4229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:users.TC_001@74455848]" started-at="2022-03-03T09:19:58 IST" name="loginToApplication" finished-at="2022-03-03T09:20:06 IST" duration-ms="7516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="reports()[pri:0, instance:users.TC_001@74455848]" started-at="2022-03-03T09:20:06 IST" name="reports" finished-at="2022-03-03T09:20:45 IST" duration-ms="39390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+      </class> <!-- users.TC_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
